@@ -1,27 +1,64 @@
 body, html{
   height:100%;
 }
-body{
+body {
   margin: 0px;
-  background-color:#444;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .addLineUpButton {
   padding:5px 12px;
-  float:right;
+  float:left;
 }
 .topbar{
   height:32px;
+  color: black;
   background-color: #555;
 }
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
+
+.background {
+  display: absolute;
+  left: 0;
+  top: 500;
+  width: 100%;
+  height: 100%;
+}
+
+.dancer {
   border-radius:10px;
   position:absolute;
+}
+
+.stormtrooper {
+  position:absolute;
+  width: 100px;
+  height: 100px;
+}
+
+.stormtrooper:hover {
+  position:absolute;
+  top: 2000px;
+}
+
+.wookie {
+  /* border:10px solid brown;
+  border-radius:10px; */
+  width: 100px;
+  height: 100px;
+  position:absolute;
+}
+
+.wookie:hover {
+  border:10px solid yellow;
+  border-radius:10px;
+  position:absolute;
+}
+
+.addDancerButton:hover {
+  color: black;
 }
